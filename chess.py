@@ -94,5 +94,3 @@ while b <= 63:
         print ('Tile' , n ,'has', kg , 'KG and ' , grain , 'grains')
     else: print ('Tile',n,'has', x, 'grain')
     b = b + 1
-
-
