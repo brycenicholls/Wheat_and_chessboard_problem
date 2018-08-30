@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 #
 
-#
+# Must be a better way to do this
 a = 0
 b = 1
 
 print('Tile 1 has 1 grain')
-while b <= 64:
+while b <= 63:
     n = b+1
     x = 2 ** b
     KG = 50000
