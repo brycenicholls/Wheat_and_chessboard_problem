@@ -37,5 +37,13 @@ def power(x, y):
 # assign variables
 
 
-tile = 1
-grain = 1
+tile: int = 1
+grain: int = 1
+
+
+message_1 = "Tile {}  has {} grain".format(tile, grain)
+print(message_1)
+
+while tile <=64:
+    print(message_1)
+    grain += 1
