@@ -37,5 +37,5 @@ def power(x, y):
 # assign variables
 
 
-TILE = 1
-GRAIN = 1
+tile = 1
+grain = 1
